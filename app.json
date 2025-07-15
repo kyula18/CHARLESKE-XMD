@@ -1,5 +1,5 @@
 {
-  "name":"𝘾𝙃𝘼𝙍𝙇𝙀𝙎𝙆𝙀 𝙓𝙈𝘿",
+  "name":"𝘾arl 𝙓𝙈𝘿",
   "description":"Best whatsapp bot💥 developed by Charles ke🇰🇪",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://ibb.co/q70RyBd",
@@ -17,7 +17,7 @@
     {
       "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
       "value":"yes",
-      "required":false
+      "required":true
     }, "AUTO_DOWNLOAD_STATUS":
     {
       "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
@@ -33,14 +33,14 @@
   "AUTO_REACT":
     {
       "description":"Enter yes for your bot to auto react",
-      "value":"no",
-      "required":false
+      "value":"yes",
+      "required":true
          },
   "CHATBOT":
     {
       "description":"Enter yes for your bot to auto reply messages",
-      "value":"no",
-      "required":false
+      "value":"yes",
+      "required":true
     },
 	  
 "ANTICALL":
@@ -65,8 +65,8 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"𝘾𝙃𝘼𝙍𝙇𝙀𝙎𝙆𝙀 𝙓𝙈𝘿",
-      "required":false
+      "value":"𝘾arl 𝙓𝙈𝘿",
+      "required":true
 
     } ,
      "BOT_MENU_LINKS" : {
@@ -80,7 +80,7 @@
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
       "value":"yes",
-      "required":false
+      "required":true
     }
 	,
     "HEROKU_API_KEY": {
@@ -95,14 +95,14 @@
     "SESSION_ID":
     {
       "description":"put your session ID , the code you receive after scanning Qr code",   
-      "value":"",
+      "value":"eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoid0tyMUo1Z3VsWDdRbGlGd0pRSWJvZWUxQnJhQllCTUovdlZCTnF0b1FFRT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoibEhpd25BMHp1aHJGK1RqVjdKVXBWdmQ1UjdoQVltUTRPUHNxVW9CcFB6Zz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ3Tmk1SmhGdlBLOUlHc291RWoraklKNUFaR2Rjd0pGZ0JTdWtjSW5wbDEwPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJVUzhBaHllandGcFVIclRPRmFrWU1RdFNlNWxWWExFcFpZY0V3UHE3WVNRPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjhLQ0dEc0J0RlRzZlV2Y3E5azZzdmlzaTAvVHRUNkwyYjVvSDF6YU5vMlk9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ii9Ya0h0VzNqSldBdmJsTzZYMmJJU29PSTczeGFQU0tOUlFkUGNBRlhCanc9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiY0ZTeGowbnNvdFJiYW14VHJNeHJCbVp4SHVQMmhmYVYvbXZRaG9IdnRuYz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVG84TW15OUtMZWNZVWNxc1A3cWpJclhlQm5LL25PMTZ0bHVMUmljZDZTWT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Imxzb3VOZkR4cy9xZlRkSzhJTUFFa2h1THhIMHJZNGFxTC9KeWdjKytyVHQ5alBjdEU4bEVnWVk3ZnVTNFNZMkcvaWt5TCtuT2l6dlk1T3JiYzNKVmdRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTUyLCJhZHZTZWNyZXRLZXkiOiJndGFkVmFwdXVVUFNhK1BnaFkrNmdzVEN4aEtuOVFnUmVuMWhsS0RCN2tNPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W3sia2V5Ijp7InJlbW90ZUppZCI6IjI1NDc0Mzg0OTQxNEBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiI2QzA5MEQ0MzBCRkY3OTY2N0IzNTEwRjBDMTIzNzVCNCJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzUyNTYzNjAwfSx7ImtleSI6eyJyZW1vdGVKaWQiOiIyNTQ3NDM4NDk0MTRAcy53aGF0c2FwcC5uZXQiLCJmcm9tTWUiOnRydWUsImlkIjoiQjU3OTg4RDExNkNGMkE2QjkwOTcwOTM5NzZBQTQzNUEifSwibWVzc2FnZVRpbWVzdGFtcCI6MTc1MjU2MzYwMX0seyJrZXkiOnsicmVtb3RlSmlkIjoiMjU0NzQzODQ5NDE0QHMud2hhdHNhcHAubmV0IiwiZnJvbU1lIjp0cnVlLCJpZCI6IkU1QkI0OEE5RDZGMjA2Qzg5MEU3M0U1NTMwQjQ2RDIyIn0sIm1lc3NhZ2VUaW1lc3RhbXAiOjE3NTI1NjM2MTd9XSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjEsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJyZWdpc3RlcmVkIjp0cnVlLCJwYWlyaW5nQ29kZSI6IjEyM0xPVFVTIiwibWUiOnsiaWQiOiIyNTQ3NDM4NDk0MTQ6MTJAcy53aGF0c2FwcC5uZXQiLCJsaWQiOiIyODk5NTg0NDMxMzEyNToxMkBsaWQiLCJuYW1lIjoiQ2FybCDwn6Ww8J+YnSJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDSUs2aHFvR0VQMysxOE1HR0FFZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiODdZWGJKSi8ydG56Wm9TRXFqZ09CM3B3ZThvM1J3cmRlTjlCQ3ZoZ2J5cz0iLCJhY2NvdW50U2lnbmF0dXJlIjoibFlMb2srSGUvaUw5WTdZdUVpbDQ0TXNxbU5jdmpIUDVDTyt0R3k4WFYwSk5LdEFsREovZ2RYUjJYNE5UUUI0Ry94YUVDNG1yc3hlazFvUkYxOXB3QkE9PSIsImRldmljZVNpZ25hdHVyZSI6IkFKeHJ6eDJyWWY2ZzlHNVd3UUZ0anJjeHo0QlpXK3FQV3l5WFB5aTlZZVNWSy9CYmplN0dzcWVWLytDaklyeTdGM1U0TGpPVHV4ZDNCc3JHTWZDV2hnPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjU0NzQzODQ5NDE0OjEyQHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQmZPMkYyeVNmOXJaODJhRWhLbzREZ2Q2Y0h2S04wY0szWGpmUVFyNFlHOHIifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJyb3V0aW5nSW5mbyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkNBVUlDQT09In0sImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTc1MjU2MzU5NiwibGFzdFByb3BIYXNoIjoiUFdrNUIiLCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUYxZiJ9",
       "required":true
       
     },
     "OWNER_NAME":
     {
     
-    "desc": "Your Name",
+    "desc": "carlson",
     "required": false,
     "value": "©charles"
   },
@@ -111,13 +111,13 @@
     
     "desc": "Your number , dont put '+' and put you area code(exemple of kenya '254')",
     "required":true,
-    "value": ""
+    "value": "254743849414"
   },
     "WARN_COUNT":
   {
     "desc": "this is the limit of warn for warning commandes",
     "required": false,
-    "value": "3"
+    "value": ""
   },
   "STARTING_BOT_MESSAGE":
   {
