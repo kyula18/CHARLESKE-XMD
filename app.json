@@ -28,7 +28,7 @@
     {
       "description":"Your contact  will be read messages automatically(type yes to active or no to deactive  ; don't write in capital letter)",
       "value":"no",
-      "required":false   
+      "required":true   
       },
   "AUTO_REACT":
     {
